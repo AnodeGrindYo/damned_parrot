@@ -1,0 +1,40 @@
+#note-textarea {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    color: green;
+    font-size: 800%;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px green;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: 1px solid green;
+}
+
+body::-webkit-scrollbar-button {
+    background: black;
+    outline: none;
+}
+
+body::-webkit-scrollbar-track-piece {
+    background: black;
+    outline: none;
+}
+body::-webkit-scrollbar-corner {
+    background: black;
+    outline: none;
+}
+
+body{
+    background: black;
+}
