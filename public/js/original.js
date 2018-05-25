@@ -226,6 +226,6 @@ start_record();
 window.setInterval(function(){
     console.log("talking : "+talking);
   // code à exécuter
-    if(talking == false)
+    //if(talking == false)
       resetVoiceRecog();
 }, 10000);

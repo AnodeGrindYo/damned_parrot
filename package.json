@@ -1,0 +1,24 @@
+{
+  "name": "damned_parrot",
+  "version": "1.0.0",
+  "description": "a joke",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriengodoy/damned_parrot.git"
+  },
+  "author": "adrg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriengodoy/damned_parrot/issues"
+  },
+  "homepage": "https://github.com/adriengodoy/damned_parrot#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "opn": "^5.3.0"
+  }
+}
